@@ -9,8 +9,8 @@ library(dplyr)
 #Sys.setlocale(locale = "Thai")
 
 # --------------- #
-Dat <- readRDS("Mapped_Data.RDS")
-border <- readRDS("khet12map_1.RDS")
+Dat <- readRDS("Data/Mapped_Data.RDS")
+border <- readRDS("Data/khet12map_1.RDS")
 
 ### Dat
 #Dat$labelss <- labelss 
